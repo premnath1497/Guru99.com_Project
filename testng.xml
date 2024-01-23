@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+	<parameter name="browser"  value = "chrome" />
+  <test thread-count="5" name="Test">
+    <classes>
+	 <class name="com.TestBase.TestBase"/>
+  <!--<class name="com.TestClass.MobileListTestCase"/> -->   
+  <!--<class name="com.TestClass.MobilePriceTestCase"/> -->    
+  <!--<class name="com.TestClass.ErrorVerificationTestCase"/> -->   
+     <class name="com.TestClass.HandlingWindows"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
